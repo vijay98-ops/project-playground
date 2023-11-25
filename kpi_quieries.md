@@ -31,3 +31,13 @@ FROM
     ) AS AverageInventory_Subquery;
 
 ```
+
+## schema for stockout logs
+StockOutLogs
+-------------
+| LogID         | (Primary Key)
+| ProductID     | (Foreign Key referencing ProductInformation)
+| StockOutDate  |
+| Reason        |
+| ...
+
