@@ -33,6 +33,7 @@ FROM
 ```
 
 ## schema for stockout logs
+```
 StockOutLogs
 -------------
 | LogID         | (Primary Key)
@@ -40,4 +41,5 @@ StockOutLogs
 | StockOutDate  |
 | Reason        |
 | ...
-
+```
+### Calculate stockout events group by warehouse and product to see stock out rate in warehouse and by products.
